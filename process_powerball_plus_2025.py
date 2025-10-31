@@ -81,7 +81,7 @@ def process_powerball_plus_2025_data():
         {"draw_date": "2025-03-04", "main_numbers": [2, 4, 5, 19, 31], "powerball": 15, "jackpot": 27832212.10, "outcome": "Roll"},
         
         # February 2025
-        {"draw_date": "2025-02-28", "main_numbers": [4, 6, 15, 20, 50], "powerball": 3, "jackpot": 25282409.46, "outcome": "Roll"},
+        {"draw_date": "2025-02-28", "main_numbers": [28, 10, 5, 20, 50], "powerball": 3, "jackpot": 25282409.46, "outcome": "Roll"},
         {"draw_date": "2025-02-25", "main_numbers": [2, 20, 28, 34, 45], "powerball": 3, "jackpot": 22520454.31, "outcome": "Roll"},
         {"draw_date": "2025-02-21", "main_numbers": [16, 21, 30, 34, 47], "powerball": 18, "jackpot": 20355008.75, "outcome": "Roll"},
         {"draw_date": "2025-02-18", "main_numbers": [4, 12, 24, 40, 49], "powerball": 4, "jackpot": 18128548.95, "outcome": "Roll"},
@@ -136,4 +136,5 @@ def process_powerball_plus_2025_data():
 
 if __name__ == "__main__":
     process_powerball_plus_2025_data()
+
 
