@@ -2,19 +2,7 @@
   "functions": {
     "api/app.py": {
       "maxDuration": 60,
-      "excludeFiles": [
-        "data/**",
-        "data_scripts/**",
-        "simple_data_collector.py",
-        "real_data_collector.py",
-        "advanced_web_scraper.py",
-        "process_*.py",
-        "manual_data_entry.py",
-        "demo.py",
-        "quick_test.py",
-        "test_*.py",
-        "notebooks/**"
-      ]
+      "excludeFiles": "{advanced_web_scraper.py,advanced_scraper.py,data_collector.py,simple_data_collector.py,real_data_collector.py,manual_data_entry.py,process_*.py,quick_*.py,test_*.py,run_*.bat,setup.py,DEPLOYMENT.md,SCRAPING_ANALYSIS.md,powerball_predictions.html}"
     }
   },
   "buildCommand": "pip install -r requirements.txt"
