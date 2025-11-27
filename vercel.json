@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "api/app.py": {
+      "maxDuration": 60,
+      "excludeFiles": [
+        "data/**",
+        "data_scripts/**",
+        "simple_data_collector.py",
+        "real_data_collector.py",
+        "advanced_web_scraper.py",
+        "process_*.py",
+        "manual_data_entry.py",
+        "demo.py",
+        "quick_test.py",
+        "test_*.py",
+        "notebooks/**"
+      ]
+    }
+  },
+  "buildCommand": "pip install -r requirements.txt"
+}
